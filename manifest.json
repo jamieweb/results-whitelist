@@ -1,0 +1,21 @@
+{
+    "name": "Results Whitelist",
+    "description": "Highlights sites in Google search results that have been whitelisted by the user.",
+    "version": "1.0",
+    "permissions": [ "contextMenus", "tabs" ],
+    "manifest_version": 2,
+
+    "background": {
+        "page": "results-whitelist.html"
+    },
+
+    "browser_action": {
+        "default_title": "Results Whitelist",
+        "default_icon": "icon-16x.png"
+    },
+
+    "icons": {
+        "128": "icon-128x.png",
+        "16": "icon-16x.png"
+    }
+}
