@@ -1,4 +1,4 @@
-chrome.storage.sync.get(function(items) { wl = items.wl; });
+chrome.storage.sync.get(function(items) { wl = items.wl.split("\n"); });
 
 function markresults() {
     results = document.getElementsByTagName("a");
