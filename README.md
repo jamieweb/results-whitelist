@@ -29,5 +29,6 @@ Click save. Now when you perform a Google search, search results matching those 
 
     Support for more Google sites (currently only .com and .co.uk, however you can easily edit the manifest.json to add your own preferred Google site)
     Direct domain name matching (so you don't need to define subdomains)
+    Test in Chromium
     
     Site blacklist (display in red)?
