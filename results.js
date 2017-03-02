@@ -1,11 +1,4 @@
-function restore_options() {
-    chrome.storage.sync.get({
-        wl: 'default-example'
-    }, function(items) {
-        wl = items.wl;
-        //console.log(wl);
-    });
-}
+chrome.storage.sync.get(function(items) { wl = items.wl; });
 
 function markresults() {
     results = document.getElementsByTagName("a");
@@ -16,7 +9,5 @@ function markresults() {
     	}
     }
 }
-
-restore_options();
 
 document.addEventListener('DOMNodeInserted', markresults);
