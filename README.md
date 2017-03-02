@@ -23,6 +23,8 @@ Enter website names into the box, one per line. This must be the full website na
     github.com
     www.reddit.com
     
+Regular expressions (regex) are not supported.
+    
 Click save. Now when you perform a Google search, search results matching those that you defined in the configuration will be highlighed in green.
 
 ## To-do/Ideas
