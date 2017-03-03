@@ -3,7 +3,7 @@ Chrome extension that highlights sites in Google search results that have been w
 
 Designed to be an anti-typosquatting tool and to highlight known trusted sites.
 
-## Installation
+## Installation:
 
 1. Download the ZIP from GitHub and extract the contained folder.
 
@@ -13,7 +13,7 @@ Designed to be an anti-typosquatting tool and to highlight known trusted sites.
 
 4. Click "Load Unpacked Extension" and select the extracted folder containing the extension files. If you receive a manifest not found error, check for nested folders. Sometimes extracting will cause nested folders.
 
-## Configuration
+## Configuration:
 
 You can access the options page by clicking "Options" from the extensions manager, or by right clicking the extension icon at the top right of Chrome.
 
@@ -27,7 +27,7 @@ Regular expressions (regex) are not supported.
     
 Click save. Now when you perform a Google search, search results matching those that you defined in the configuration will be highlighed in green.
 
-## To-do/Ideas
+## To-do/Ideas:
 
     Support for more Google sites
     (currently only .com and .co.uk, however you can easily edit the manifest.json file to add your own preferred Google site)
