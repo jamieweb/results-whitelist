@@ -3,6 +3,8 @@ Chrome extension that highlights sites in Google search results that have been w
 
 Designed to be an anti-typosquatting tool and to highlight known trusted sites.
 
+Currently early in development and is not yet fully working or tested thoroughly.
+
 ## Installation:
 
 1. Download the ZIP from GitHub and extract the contained folder.
