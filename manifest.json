@@ -1,8 +1,8 @@
 {
-    "name":    "Results Whitelist",
+    "name": "Results Whitelist",
 	"description": "Highlights sites in Google search results that have been whitelisted by the user.",
     "version": "1.0",
-	"permissions": [ "storage" ],
+	"permissions": ["storage"],
 	"options_page": "options.html",
     "manifest_version": 2,
 
@@ -10,13 +10,19 @@
         "default_icon": "rw.ico"
     },
 
+    "background": {
+        "scripts": ["background.js"]
+    },
+
     "content_scripts": [{
-        "matches": [
-            "https://www.google.co.uk/*",
-            "https://www.google.com/*"
-        ],
-        "js":         ["results.js"],
-        "run_at":     "document_end",
+        "matches": ["https://www.google.co.uk/*", "https://www.google.com/*"],
+        "js": ["results.js"],
+        "run_at": "document_end",
+        "all_frames": false
+    }, {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["icon.js"],
+        "run_at": "document_end",
         "all_frames": false
     }]
 }
