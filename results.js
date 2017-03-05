@@ -10,4 +10,4 @@ function markresults() {
     }
 }
 
-document.addEventListener('DOMNodeInserted', markresults);
+window.addEventListener('load', markresults);
