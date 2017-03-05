@@ -10,4 +10,4 @@ function markresults() {
     }
 }
 
-window.addEventListener('load', markresults);
+window.addEventListener('load', setTimeout(markresults,1100));
