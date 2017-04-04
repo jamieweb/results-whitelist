@@ -1,5 +1,5 @@
-# Google Search Results Site Whitelist
-Chrome extension that highlights sites in Google search results that have been whitelisted by the user.
+# Google Search Results + Reddit Links Site Whitelist
+Chrome extension that highlights site links on Google/Reddit that have been whitelisted by the user.
 
 Designed to be an anti-typosquatting tool and to highlight known trusted sites.
 
@@ -27,7 +27,7 @@ Enter website names into the box, one per line. This must be the full website na
     
 Regular expressions (regex) are not supported.
     
-Click save. Now when you perform a Google search, search results matching those that you defined in the configuration will be highlighed in green.
+Click save. Now when you perform a Google search or browse Reddit, links matching those that you defined in the configuration will be highlighed in green. The extension icon in the top right will also turn green when you are currently browsing a whitelisted site.
 
 ## To-do/Ideas:
 
