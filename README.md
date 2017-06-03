@@ -3,9 +3,9 @@ Chrome extension that highlights site links on Google/Reddit that have been whit
 
 Designed to be an anti-typosquatting/anti-phishing tool and to highlight known trusted sites.
 
-Currently early in development and is not yet fully working or tested thoroughly.
+**Currently early in development and is not yet fully working or tested thoroughly.**
 
-Link filtering is especially unreliable on the new style Reddit profiles due to the way that the page content is dynamically loaded. Legacy profiles work fine.
+**Link filtering is especially unreliable on the new style Reddit profiles due to the way that the page content is dynamically loaded. Legacy profiles work fine.**
 
 ## Installation:
 
