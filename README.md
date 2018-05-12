@@ -1,11 +1,17 @@
 # Google Search Results + Reddit Links Site Whitelist
-Chrome extension that highlights site links on Google/Reddit that have been whitelisted by the user.
+A Chrome extension that highlights site links on Google/Reddit that have been whitelisted by the user.
 
 Designed to be an anti-typosquatting/anti-phishing tool and to highlight known trusted sites.
 
-**Currently early in development and is not yet fully working or tested thoroughly.**
+## Changelog:
 
-~~**Link filtering is especially unreliable on the new style Reddit profiles due to the way that the page content is dynamically loaded. Legacy profiles work fine.**~~ Link filtering on new Reddit profiles actually seems to work fine now.
+| Date | Notes |
+|------|-------|
+| **2018-May-12** | Added support for new Reddit site layout |
+| **2017-Jun-03** | Added support for new Reddit profiles + search link format |
+| **2017-Apr-04** | Added support for Reddit posts + search results |
+| **2017-Mar-05** | Extension icon displays green when on whitelisted site |
+| **2017-Mar-02** | Initial release |
 
 ## Installation:
 
