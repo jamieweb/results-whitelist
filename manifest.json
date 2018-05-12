@@ -1,7 +1,7 @@
 {
     "name": "Results Whitelist",
 	"description": "Highlights sites in Google search results that have been whitelisted by the user.",
-    "version": "1.0",
+    "version": "1.4",
 	"permissions": ["storage"],
 	"options_page": "options.html",
     "manifest_version": 2,
