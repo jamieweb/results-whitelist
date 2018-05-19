@@ -1,7 +1,7 @@
 {
     "name": "Results Whitelist",
-	"description": "Highlights sites in Google search results that have been whitelisted by the user.",
-    "version": "1.4",
+	"description": "Highlights whitelisted sites on Google search, Reddit and Hacker News.",
+    "version": "1.5",
 	"permissions": ["storage"],
 	"options_page": "options.html",
     "manifest_version": 2,
@@ -24,8 +24,13 @@
         "run_at": "document_end",
         "all_frames": false
     }, {
-        "matches": ["https://www.reddit.com/*", "https://new.reddit.com/*"],
+        "matches": ["https://www.reddit.com/*", "https://new.reddit.com/*", "https://old.reddit.com/*"],
         "js": ["reddit.js"],
+        "run_at": "document_end",
+        "all_frames": false
+    }, {
+        "matches": ["https://news.ycombinator.com/*"],
+        "js": ["hackernews.js"],
         "run_at": "document_end",
         "all_frames": false
     }, {
