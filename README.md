@@ -1,5 +1,5 @@
-# Google Search Results + Reddit Links Site Whitelist
-A Chrome extension that highlights site links on Google/Reddit that have been whitelisted by the user.
+# Google Search Results + Reddit Links + Hacker News Site Whitelist
+A Chrome extension that highlights site links on Google/Reddit/Hacker News that have been whitelisted by the user.
 
 Designed to be an anti-typosquatting/anti-phishing tool and to highlight known trusted sites.
 
@@ -7,6 +7,7 @@ Designed to be an anti-typosquatting/anti-phishing tool and to highlight known t
 
 | Date | Notes |
 |------|-------|
+| **2018-May-19** | Added support for Hacker News |
 | **2018-May-12** | Added support for new Reddit site layout |
 | **2017-Jun-03** | Added support for new Reddit profiles + search link format |
 | **2017-Apr-04** | Added support for Reddit posts + search results |
